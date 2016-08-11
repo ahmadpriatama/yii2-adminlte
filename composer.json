@@ -1,0 +1,23 @@
+{
+    "name": "ahmadpriatama/yii2-adminlte",
+    "authors": [
+        {
+            "name": "Ahmad Priatama",
+            "email": "ahmad.priatama@gmail.com"
+        }
+    ],
+    "type": "library",
+    "minimum-stability": "dev",
+    "require": {
+    	"almasaeed2010/adminlte" : "^2.3.6",
+        "rmrevin/yii2-ionicon": "^1.2.0",
+        "p2made/yii2-asset-collection": "^4.3.0",
+        "bower-asset/jquery-ui": "dev-master",
+        "bower-asset/bootstrap": "dev-master"
+    },
+	"autoload": {
+	  	"psr-4": {
+	      	"AdminLTE\\": "src/"
+	    }
+	}
+}
